@@ -6,7 +6,9 @@ on:
     branches:
       - main
       - 'feature/*'
-    
+env:
+   MONGO_URI: 'mongodb://127.0.0.1:27017/testdb'
+
 jobs:
     unit-testing:
         name: Unit Testing
