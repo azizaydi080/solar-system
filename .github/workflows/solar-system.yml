@@ -7,7 +7,7 @@ on:
       - main
       - 'feature/*'
 env:
-   MONGO_URI: 'mongodb://127.0.0.1:27017/testdb'
+   MONGO_URI: 'mongodb+srv://azizaydi:K7ndMiB7iEUkDuGi@cluster0.j04dm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 jobs:
     unit-testing:
