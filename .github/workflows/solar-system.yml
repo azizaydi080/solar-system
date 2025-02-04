@@ -7,7 +7,7 @@ on:
       - main
       - 'feature/*'
 env:
-    MONGO URI: 'mongodb+srv://supercluster.d83jj.mongodb.net/superData'
+    MONGO URI: 'mongodb+srv://azizaydi:K7ndMiB7iEUkDuGi@cluster0.j04dm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
     MONGO USERNAME: ${{ vars.MONGO_USERNAME }}
     MONGO PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 jobs:
