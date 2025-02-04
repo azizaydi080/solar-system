@@ -20,7 +20,7 @@ jobs:
         - name: Setup NodeJS Version
           uses: actions/setup-node@v3
           with:
-            node-version: 22.13.1
+            node-version: 20
     
         - name: Install Dependencies
           run: npm install
