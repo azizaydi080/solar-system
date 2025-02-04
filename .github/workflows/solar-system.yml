@@ -14,13 +14,6 @@ jobs:
     unit-testing:
     
         name: Unit Testing
-        strategy: 
-          matrix: 
-            operating_system: [ubuntu-latest]
-            nodejs_version: [18,19,20]
-            exclude: 
-              - nodejs_version: 18 
-                operating_system: macos-latest 
         runs-on: ubuntu_latest
         steps:
         - name: Checkout Repository
